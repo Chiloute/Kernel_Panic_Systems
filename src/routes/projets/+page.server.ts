@@ -13,7 +13,7 @@ export const load: PageServerLoad = async () => {
             imageUrl: `${apiBaseUrl}/api/files/${project.collectionId}/${project.id}/${project.image}`,
         }));
 
-        console.log('Projets récupérés:', projects);
+       // console.log('Projets récupérés:', projects);
         return { projects: projectsWithImages };
     } catch (error) {
         console.error('❌ Erreur lors de la récupération des projets:', error);

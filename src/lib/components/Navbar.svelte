@@ -60,9 +60,6 @@
                     <a href="/events" class={`block py-2 px-3 rounded-sm md:p-0 ${isActive("/events") ? "text-white bg-red-700 md:bg-transparent md:text-red-700 dark:text-white md:dark:text-red-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"}`}>Events</a>
                 </li>
                 <li>
-                    <a href="/listes" class={`block py-2 px-3 rounded-sm md:p-0 ${isActive("/listes") ? "text-white bg-red-700 md:bg-transparent md:text-red-700 dark:text-white md:dark:text-red-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"}`}>Liste</a>
-                </li>
-                <li>
                     <a href="/about" class={`block py-2 px-3 rounded-sm md:p-0 ${isActive("/about") ? "text-white bg-red-700 md:bg-transparent md:text-red-700 dark:text-white md:dark:text-red-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"}`}>Contact</a>
                 </li>
             </ul>

@@ -13,8 +13,11 @@
     </div>
 
     <div class="flex items-center justify-center mx-auto p-4 drop-shadow-*">
-        <button type="button"
-                class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-md px-7 py-4 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
-            <a href="/projets">Nos projets </a></button>
+        <a href="/projets">
+            <button type="button"
+                    class="text-white bg-red-700 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-md px-7 py-4 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">
+                Nos projets
+            </button>
+        </a>
     </div>
 </div>
